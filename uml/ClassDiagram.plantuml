@@ -1,0 +1,80 @@
+@startuml Class Diagram
+class User {
+    +Guid Id
+    +string Email
+    +string FirstName
+    +string LastName
+    +string? Patronymic
+    +string PasswordHash
+    +UserRole Role
+    +DateTime CreatedAt
+    +DateTime DeletedAt
+}
+
+enum UserRole {
+    Employee
+    Supervisor
+    Administrator
+}
+
+class Department {
+    +Guid Id
+    +string Title
+    +User Supervisor
+    +User[0..*] Employee
+    +DateTime CreatedAt
+    +DateTime DeletedAt
+}
+
+class Task {
+    +Guid Id
+    +string Title
+    +string Description
+    +TaskStatus status
+    +DateTime CreatedAt
+    +DateTime DeletedAt
+}
+
+enum TaskStatus {
+    NotStarted
+    InProgress
+    Finished
+}
+
+class Skill {
+    +Guid Id
+    +string Title
+    +string Description
+    +DateTime CreatedAt
+    +DateTime DeletedAt
+}
+
+class SubTask {
+    +Guid Id
+    +string Title
+    +string Discription
+    +bool IsComplited
+    +DateTime CreatedAt
+    +DateTime DeletedAt
+}
+
+class Comment {
+    +Guid Id
+    +string content
+    +DateTime CreatedAt
+    +DateTime DeletedAt
+}
+
+User "1" - "0..*" Skill : have >
+User "1" -- "0..*" Task : assgined to >
+User "0..*" o- "1" Department : works in (employee) >
+User "1" - "0..*" Department : supervises (supervisor) >
+
+Task "0..*" - "1" Skill : need to be complete to have >
+Task "1" *-- "0..*" SubTask : consits of >
+Task "1" *-- "0..*" Comment : have >
+User "1" o-- "0..*" Comment : writes >
+
+Department "1" -- "0..*" Task : have >
+User "1" -- "0..*" SubTask : executes >
+@enduml

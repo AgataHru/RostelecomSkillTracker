@@ -1,0 +1,61 @@
+@startuml Use Case Diagram
+left to right direction
+actor Employee as e
+actor Supervisor as s
+actor Administrator as a
+rectangle SkillTracker {
+    usecase "Войти\nв профиль" as Login
+    usecase "Просматривать\nпрофиль" as ViewProfile
+    usecase "Изменение\nпрофиля" as ChangeProfile
+    usecase "Изменение\nпароля" as ChangePassword
+    usecase "Поставить\nперсональную\nзадачу сотруднику" as AssignTask
+    usecase "Создать \nзадачу" as CreateTask
+    usecase "Создать \nподзадачу" as CreateSubTask
+    usecase "Следить за прогрессом\nсотрудников" as CheckProgress
+    usecase "Давать\nобратную связь" as GiveFeedback
+    usecase "Писать комментарии\nпод заданием" as WriteComments
+    usecase "Отвечать на комментарии\nпод заданием" as AnswerComments
+    usecase "Просматривать личный\nсписок задач" as ViewTaskList
+    usecase "Выполнить\nзадачу" as CompleteTask
+    usecase "Выполнить\nподзадачу" as CompleteSubTask
+    usecase "Добавит сотрудника в отдел" as AddEmployeeToDepartment
+    usecase "Просматривать \nпрофиль сотрудника" as ViewEmployeeProfile
+    usecase "Просматривать \nсписок сотрудников департамента" as ViewDepartmentProgress
+
+    usecase "Создать пользователя" as CreateUser
+    usecase "Создать отдел" as CreateDepartment
+    usecase "Просматривать скиллы" as ManageSkills
+    usecase "Просматривать задания" as ManageTasks
+    usecase "Просматривать комментарии" as ManageComments
+}
+
+e --> Login
+a --> Login
+s --> Login
+Login --> ChangeProfile
+Login --> ViewProfile
+ChangeProfile <.. ChangePassword : extend
+
+s --> AssignTask
+AssignTask <.. CreateTask : extend
+CreateTask <.. CreateSubTask : extend
+s --> CheckProgress
+CheckProgress ..> ViewEmployeeProfile : include
+CheckProgress ..> ViewDepartmentProgress : include
+s --> GiveFeedback
+s --> AddEmployeeToDepartment
+
+e --> GiveFeedback
+GiveFeedback ..> WriteComments : include
+GiveFeedback ..> AnswerComments : include
+e --> ViewTaskList
+e --> CompleteTask
+CompleteTask <.. CompleteSubTask : extend
+
+a --> CreateUser
+a --> CreateDepartment
+a --> ManageSkills
+a --> ManageTasks
+a --> ManageComments
+
+@enduml
