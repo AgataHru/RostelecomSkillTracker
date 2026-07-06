@@ -47,6 +47,7 @@
             DBase --> Backend : Task (with id)
             deactivate DBase
             Backend --> Frontend : TaskResponseDTO
+            deactivate Backend
             Frontend --> Supervisor : 201 Created
         end
     end
