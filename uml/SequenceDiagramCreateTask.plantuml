@@ -1,0 +1,53 @@
+@startuml Sequence Diagram
+    actor Supervisor 
+
+    box "SkillTracker" #LightBlue
+    participant Frontend 
+    participant Backend 
+    end box
+
+    database DataBase as DBase
+
+    Supervisor -> Frontend : Заполняет форму задачи,\nзаполняет формы подзадач
+    activate Frontend
+    Frontend -> Backend : POST /Task/CreateTask(dto)
+    activate Backend
+    
+    alt Find one user
+        Backend -> DBase : select user by id
+        activate DBase
+        DBase --> Backend : User
+    else Find more then one user
+        Backend -> DBase : select users by id
+        DBase --> Backend : Users[]
+    else Find users by department
+        Backend -> DBase : select users by department
+        DBase --> Backend : Users[]
+        deactivate DBase
+    end
+
+    alt User not found
+        Backend --> Frontend : UserNotFoundException
+        Frontend --> Supervisor : 404 not found
+    else User found
+        Backend -> Backend : ValidateEmployeeInDepartment() 
+        note right: Проверка, что сотрудник\nпринадлежит отделу \nруководителя
+        alt Employee is not in department
+            Backend --> Frontend : InValidDepartmentException
+            Frontend --> Supervisor : 400 Bad request
+        else Employee in department
+            Backend -> Backend : new Task
+            loop for each SubTask
+                Backend -> Backend : new SubTask
+                Backend -> Backend : AddSubTaskToTask()
+            end
+            Backend -> Backend : AssignTaskToUser()
+            Backend -> DBase : AddTaskToDB
+            activate DBase
+            DBase --> Backend : Task (with id)
+            deactivate DBase
+            Backend --> Frontend : TaskResponseDTO
+            Frontend --> Supervisor : 201 Created
+        end
+    end
+@enduml
