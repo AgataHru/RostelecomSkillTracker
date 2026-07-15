@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="SkillTracker.Business/SkillTracker.Business.csproj" Id="e2b0d25e-14c3-4fee-b391-54faa282c9d8" />
+  <Project Path="SkillTracker.DataAccess/SkillTracker.DataAccess.csproj" Id="05b9862b-c0f6-4975-b489-7dbd02f1c2d2" />
+  <Project Path="SkillTracker.Domain/SkillTracker.Domain.csproj" Id="055658f2-6c71-448b-9b9a-57b996debdc8" />
   <Project Path="WebApplication1/WebApplication1.csproj" />
 </Solution>
