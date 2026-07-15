@@ -1,8 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using SkillTracker.Domain.Abstractions;
 using SkillTracker.Domain.Models;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using WebApplication1.DTO.Requests;
 using WebApplication1.DTO.Responses;
+using WebApplication1.Options;
 
 namespace WebApplication1.Controllers
 {
@@ -54,15 +59,26 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<UserResponse>> AddUser([FromBody] AddUserRequest userResponse)
+        public async Task<ActionResult<UserResponse>> AddUser([FromBody] AddUserRequest request)
         {
+            if (string.IsNullOrEmpty(request.Password))
+            {
+                return BadRequest("Password cannot be empty.");
+            }
+            if (request.Password.Length < 8)
+            {
+                return BadRequest("Password must be at least 8 characters long.");
+            }
+
+            var passwordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
+
             var (user, error) = SkillTracker.Domain.Models.User.Create(
-                userResponse.Email,
-                "hashedPassword", // In a real application, you would hash the password before storing it
-                userResponse.FirstName,
-                userResponse.LastName,
-                userResponse.Role,
-                userResponse.Patronymic
+                request.Email,
+                passwordHash,
+                request.FirstName,
+                request.LastName,
+                request.Role,
+                request.Patronymic
             );
             if (!string.IsNullOrEmpty(error))
             {
@@ -152,6 +168,66 @@ namespace WebApplication1.Controllers
                 return BadRequest();
             }
             return Ok();
+        }
+
+        // Контроллеры с применением JWT
+        [HttpPost("login")]
+        public async Task<ActionResult<LoginResponse>> Login([FromBody] LoginRequest request)
+        {
+            var user = await _userService.GetUserByEmailAsync(request.Email);
+            if (user == null)
+            {
+                return Unauthorized(new { message = "Invalid email or password. (EMAIL)" });
+            }
+
+            if (!user.VerifyPassword(request.Password))
+            {
+                return Unauthorized(new { message = "Invalid email or password. (PASSWORD)" });
+            }
+
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Role, user.Role.ToString())
+            };
+
+            var jwt = new JwtSecurityToken(
+                issuer: AuthOptions.ISSUER,
+                audience: AuthOptions.AUDIENCE,
+                claims: claims,
+                expires: DateTime.UtcNow.AddMinutes(30),
+                signingCredentials: new SigningCredentials(AuthOptions.GetSymmetricSecurityKey(), SecurityAlgorithms.HmacSha256)
+            );
+            var encodedJwt = new JwtSecurityTokenHandler().WriteToken(jwt);
+
+            return Ok(new LoginResponse(encodedJwt));
+        }
+
+        [Authorize]
+        [HttpGet("me")]
+        public async Task<ActionResult<UserResponse>> GetCurrentUser()
+        {
+
+
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
+            if (userIdClaim == null) return Unauthorized( new {message = "User not found." });
+
+            var userId = Guid.Parse(userIdClaim.Value);
+            if (userId == Guid.Empty) return Unauthorized( new {message = "Invalid user ID." });
+
+            var user = await _userService.GetUserByIdAsync(userId);
+            if (user == null) return NotFound(new { message = "User not found." });
+
+
+            return Ok(new UserResponse(
+                user.Id,
+                user.Email,
+                user.FirstName,
+                user.LastName,
+                user.Patronymic,
+                user.Role
+            ));
         }
     }
 }

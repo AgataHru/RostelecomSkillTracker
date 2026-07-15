@@ -23,7 +23,7 @@ namespace SkillTracker.Domain.Models
         public string LastName { get; } = string.Empty; // Обязательное поле, фамилия пользователя
         public string? Patronymic { get; } = null; // Необязательное поле, отчество пользователя
         public Role Role { get; } = Role.Employee; // Обязательное поле, роль пользователя (Employee, Supervisor, Administrator)
-        public DateTime CreatedAt { get; } = DateTime.Now; // Обязательное поле, дата и время создания пользователя
+        public DateTime CreatedAt { get; } = DateTime.UtcNow; // Обязательное поле, дата и время создания пользователя
         public DateTime DeletedAt { get; } = DateTime.MinValue; // Обязательное поле, дата и время удаления пользователя (по умолчанию DateTime.MinValue, если пользователь не удален)
 
         static public (User User, string Error) Create(string email, string passwordHash, string firstName, string lastName, Role role, string? patronymic = null, Guid? id = null)
@@ -35,7 +35,7 @@ namespace SkillTracker.Domain.Models
             }
             if (string.IsNullOrWhiteSpace(passwordHash))
             {
-                return (null!, "Password hash cannot be empty.");
+                return (null!, "Password cannot be empty.");
             }
             if (string.IsNullOrWhiteSpace(firstName))
             {
@@ -63,11 +63,16 @@ namespace SkillTracker.Domain.Models
             {
                 return (null!, "Invalid email format.");
             }
-            // Проверка на корректность password позже
-            // вся прочая валидация позже
+
             var userid = id ?? Guid.NewGuid();
             var user = new User(userid, email, passwordHash, firstName, lastName, role, patronymic);
             return (user, string.Empty);
         }
+
+        public bool VerifyPassword(string password)
+        {
+            return BCrypt.Net.BCrypt.Verify(password.Trim(), PasswordHash);
+        }
     }
 }
+

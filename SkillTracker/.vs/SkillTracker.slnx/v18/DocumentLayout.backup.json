@@ -3,6 +3,66 @@
   "WorkspaceRootPath": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\options\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\options\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\dto\\requests\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\requests\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\dto\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\dto\\responses\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\responses\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055658F2-6C71-448B-9B9A-57B996DEBDC8}|SkillTracker.Domain\\SkillTracker.Domain.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\skilltracker.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055658F2-6C71-448B-9B9A-57B996DEBDC8}|SkillTracker.Domain\\SkillTracker.Domain.csproj|solutionrelative:skilltracker.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055658F2-6C71-448B-9B9A-57B996DEBDC8}|SkillTracker.Domain\\SkillTracker.Domain.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\skilltracker.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055658F2-6C71-448B-9B9A-57B996DEBDC8}|SkillTracker.Domain\\SkillTracker.Domain.csproj|solutionrelative:skilltracker.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\dto\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\dto\\requests\\adduserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\requests\\adduserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055658F2-6C71-448B-9B9A-57B996DEBDC8}|SkillTracker.Domain\\SkillTracker.Domain.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\skilltracker.domain\\skilltracker.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{055658F2-6C71-448B-9B9A-57B996DEBDC8}|SkillTracker.Domain\\SkillTracker.Domain.csproj|solutionrelative:skilltracker.domain\\skilltracker.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B9862B-C0F6-4975-B489-7DBD02F1C2D2}|SkillTracker.DataAccess\\SkillTracker.DataAccess.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\skilltracker.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B9862B-C0F6-4975-B489-7DBD02F1C2D2}|SkillTracker.DataAccess\\SkillTracker.DataAccess.csproj|solutionrelative:skilltracker.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05B9862B-C0F6-4975-B489-7DBD02F1C2D2}|SkillTracker.DataAccess\\SkillTracker.DataAccess.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\skilltracker.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05B9862B-C0F6-4975-B489-7DBD02F1C2D2}|SkillTracker.DataAccess\\SkillTracker.DataAccess.csproj|solutionrelative:skilltracker.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,44 +71,8 @@
       "RelativeMoniker": "D:0:0:{E2B0D25E-14C3-4FEE-B391-54FAA282C9D8}|SkillTracker.Business\\SkillTracker.Business.csproj|solutionrelative:skilltracker.business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{055658F2-6C71-448B-9B9A-57B996DEBDC8}|SkillTracker.Domain\\SkillTracker.Domain.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\skilltracker.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{055658F2-6C71-448B-9B9A-57B996DEBDC8}|SkillTracker.Domain\\SkillTracker.Domain.csproj|solutionrelative:skilltracker.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\dto\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\dto\\requests\\adduserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\requests\\adduserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\dto\\requests\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\requests\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\dto\\requests\\getuserbyidrequest .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\requests\\getuserbyidrequest .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
-      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05B9862B-C0F6-4975-B489-7DBD02F1C2D2}|SkillTracker.DataAccess\\SkillTracker.DataAccess.csproj|c:\\users\\agatahru\\desktop\\rostelecom\\rostelecomskilltracker\\skilltracker\\skilltracker.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05B9862B-C0F6-4975-B489-7DBD02F1C2D2}|SkillTracker.DataAccess\\SkillTracker.DataAccess.csproj|solutionrelative:skilltracker.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,17 +82,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
               "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAApwCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-13T21:37:01.72Z",
               "IsPinned": true,
@@ -76,111 +100,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddUserRequest.cs",
-              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Requests\\AddUserRequest.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\DTO\\Requests\\AddUserRequest.cs",
-              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Requests\\AddUserRequest.cs",
-              "RelativeToolTip": "WebApplication1\\DTO\\Requests\\AddUserRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T12:54:26.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.Business\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "SkillTracker.Business\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.Business\\Services\\UserService.cs",
-              "RelativeToolTip": "SkillTracker.Business\\Services\\UserService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAewB0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T11:23:52.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\Controllers\\UserController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAlwFoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAswNIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-14T11:18:17.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\docker-compose.yml",
-              "RelativeDocumentMoniker": "WebApplication1\\docker-compose.yml",
-              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\docker-compose.yml",
-              "RelativeToolTip": "WebApplication1\\docker-compose.yml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-07-14T11:07:24.167Z",
+              "DocumentIndex": 2,
+              "Title": "AuthOptions.cs",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\Options\\AuthOptions.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Options\\AuthOptions.cs",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\Options\\AuthOptions.cs",
+              "RelativeToolTip": "WebApplication1\\Options\\AuthOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T14:38:13.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.DataAccess\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "SkillTracker.DataAccess\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.DataAccess\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "SkillTracker.DataAccess\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.Domain\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "SkillTracker.Domain\\Enums\\Role.cs",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.Domain\\Enums\\Role.cs",
+              "RelativeToolTip": "SkillTracker.Domain\\Enums\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T10:55:21.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.Domain\\Models\\User.cs",
-              "RelativeDocumentMoniker": "SkillTracker.Domain\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.Domain\\Models\\User.cs",
-              "RelativeToolTip": "SkillTracker.Domain\\Models\\User.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T12:17:28.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserResponse.cs",
-              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Responses\\UserResponse.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\DTO\\Responses\\UserResponse.cs",
-              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Responses\\UserResponse.cs",
-              "RelativeToolTip": "WebApplication1\\DTO\\Responses\\UserResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T12:07:25.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetUserByIdRequest .cs",
-              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Requests\\GetUserByIdRequest .cs",
-              "RelativeDocumentMoniker": "WebApplication1\\DTO\\Requests\\GetUserByIdRequest .cs",
-              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Requests\\GetUserByIdRequest .cs",
-              "RelativeToolTip": "WebApplication1\\DTO\\Requests\\GetUserByIdRequest .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T11:33:07.004Z",
+              "WhenOpened": "2026-07-14T14:17:12.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Responses\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTO\\Responses\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Responses\\LoginResponse.cs",
+              "RelativeToolTip": "WebApplication1\\DTO\\Responses\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T14:30:56.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UpdateUserRequest.cs",
               "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Requests\\UpdateUserRequest.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DTO\\Requests\\UpdateUserRequest.cs",
@@ -193,28 +165,158 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\appsettings.Development.json",
               "RelativeToolTip": "WebApplication1\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAByAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-07-14T11:01:38.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SkillTracker.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.Domain\\Models\\User.cs",
+              "RelativeToolTip": "SkillTracker.Domain\\Models\\User.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T12:17:28.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Responses\\UserResponse.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTO\\Responses\\UserResponse.cs",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Responses\\UserResponse.cs",
+              "RelativeToolTip": "WebApplication1\\DTO\\Responses\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T12:07:25.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\docker-compose.yml",
+              "RelativeDocumentMoniker": "WebApplication1\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\docker-compose.yml",
+              "RelativeToolTip": "WebApplication1\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-07-14T11:07:24.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebApplication1",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-15T18:30:48.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Requests\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTO\\Requests\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Requests\\LoginRequest.cs",
+              "RelativeToolTip": "WebApplication1\\DTO\\Requests\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T14:23:37.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SkillTracker.Domain",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.Domain\\SkillTracker.Domain.csproj",
+              "RelativeDocumentMoniker": "SkillTracker.Domain\\SkillTracker.Domain.csproj",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.Domain\\SkillTracker.Domain.csproj",
+              "RelativeToolTip": "SkillTracker.Domain\\SkillTracker.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-15T12:24:19.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Requests\\AddUserRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTO\\Requests\\AddUserRequest.cs",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Requests\\AddUserRequest.cs",
+              "RelativeToolTip": "WebApplication1\\DTO\\Requests\\AddUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T12:54:26.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.Business\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "SkillTracker.Business\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.Business\\Services\\UserService.cs",
+              "RelativeToolTip": "SkillTracker.Business\\Services\\UserService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAewB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T11:23:52.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SkillTracker.DataAccess\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "SkillTracker.DataAccess\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAUwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T10:55:21.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UserEntity.cs",
               "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.DataAccess\\Entities\\UserEntity.cs",
               "RelativeDocumentMoniker": "SkillTracker.DataAccess\\Entities\\UserEntity.cs",
               "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\SkillTracker.DataAccess\\Entities\\UserEntity.cs",
               "RelativeToolTip": "SkillTracker.DataAccess\\Entities\\UserEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-14T10:53:55.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetUserByIdRequest .cs",
+              "DocumentMoniker": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Requests\\GetUserByIdRequest .cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTO\\Requests\\GetUserByIdRequest .cs",
+              "ToolTip": "C:\\Users\\AgataHru\\Desktop\\Rostelecom\\RostelecomSkillTracker\\SkillTracker\\WebApplication1\\DTO\\Requests\\GetUserByIdRequest .cs",
+              "RelativeToolTip": "WebApplication1\\DTO\\Requests\\GetUserByIdRequest .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T11:33:07.004Z",
               "EditorCaption": ""
             }
           ]
